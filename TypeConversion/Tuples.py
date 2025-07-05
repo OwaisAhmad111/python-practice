@@ -20,3 +20,5 @@ print(tup.index(47))
 print(tup.count(2))
 
 
+
+
