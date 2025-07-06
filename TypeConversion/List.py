@@ -2,6 +2,8 @@
 # print(student)
 # print(type(student),len(student))
 
+#.....................
+
 # student = ["owais", 54.3, 54, "pak"]
 # print(student)
 # student[0] = "owii" # In string assignment is not possible to change the str.
@@ -27,6 +29,9 @@
 # num.remove(1)
 # num.pop(2)
 # print(num)
+
+#....................
+
 list = ['b','d','a','c']
 list.sort()
 print(list)

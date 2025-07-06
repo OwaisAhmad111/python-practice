@@ -1,6 +1,8 @@
 # name = input("Enter your name :")
 # print("welcome :",name)
 
+#....................
+
 # val = input("Enter your age :")
 # print(type(val)) # when we enter any type like int, str or even float,it converts it into "str",
 # however we can change it by using typecasting
@@ -13,6 +15,8 @@
 
 # val = bool(input("Enter some value :"))
 # print(type(val),val)
+
+#......................
 
 name = input("Enter name:")
 age = int(input("Enter age:"))

@@ -5,6 +5,7 @@
 # print(str[1])
 
 # ``'Slicing``'
+
 str = "owais ahmad"
 ch = str[0:] # 0 to ending
 ch1 = str[:11] # ending to 0 index,ending index is not included.

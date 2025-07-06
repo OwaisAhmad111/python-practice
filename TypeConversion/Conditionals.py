@@ -8,6 +8,7 @@
 # else:
 #     print("Light is broken")
 
+#..................
 
 # marks = int(input("Enter yor marks:"))
 # if(marks >=84 and marks <= 100):
@@ -20,6 +21,8 @@
 #     print("1 GPA")
 # else:
 #     print("Fail")
+
+#....................
 
 # Nesting
 
