@@ -1,6 +1,5 @@
-i = 0
-# while i<=5:
-#     if(i ==3):
-#         break
-#     print(i)
-#     i+=1
+num = int(input("Enter any number:"))
+# sum = 0
+# for i in range(1,num+1):
+#     sum+=i
+# print("Total sum",sum)
