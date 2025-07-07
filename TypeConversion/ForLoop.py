@@ -107,6 +107,16 @@ for i in range(1,num+1):
     fact = fact*i
 print("FACTORIAL:",fact)
 
+#........Factorial using While loop............
+
+num = int(input("Enter any number:"))
+fact = 1
+i = 1
+while i<=num:
+    fact*=i
+    i+=1
+print("Factorial :",fact)
+
 
 #.....Pass Statement.....
 
