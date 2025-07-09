@@ -1,2 +1,0 @@
-
-fun_name(num)

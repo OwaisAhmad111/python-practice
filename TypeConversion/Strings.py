@@ -1,14 +1,14 @@
-# str1 = 'This is a string'
-# str2 = "This is a string"
-# str3 = """This is a string"""
-# print(str1,str2,str3)
+str1 = 'This is a string'
+str2 = "This is a string"
+str3 = """This is a string"""
+print(str1,str2,str3)
 
 #..................
 
-# str4 = "This is a string,\nYou can write anything b/w double quotes." 
-# print(str4)
-# str5 = "This is a string,\tYou can write anything b/w double quotes." 
-# print(str5)
+str4 = "This is a string,\nYou can write anything b/w double quotes." 
+print(str4)
+str5 = "This is a string,\tYou can write anything b/w double quotes." 
+print(str5)
 
 # String Concatenation
 

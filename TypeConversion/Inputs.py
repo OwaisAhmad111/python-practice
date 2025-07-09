@@ -1,20 +1,20 @@
-# name = input("Enter your name :")
-# print("welcome :",name)
+name = input("Enter your name :")
+print("welcome :",name)
 
 #....................
 
-# val = input("Enter your age :")
-# print(type(val)) # when we enter any type like int, str or even float,it converts it into "str",
+val = input("Enter your age :")
+print(type(val)) # when we enter any type like int, str or even float,it converts it into "str",
 # however we can change it by using typecasting
 
-# val = int(input("Enter some value :"))
-# print(type(val))
+val = int(input("Enter some value :"))
+print(type(val))
 
-# val = int(input("Enter some value:"))
-# print((type(val),val))
+val = int(input("Enter some value:"))
+print((type(val),val))
 
-# val = bool(input("Enter some value :"))
-# print(type(val),val)
+val = bool(input("Enter some value :"))
+print(type(val),val)
 
 #......................
 

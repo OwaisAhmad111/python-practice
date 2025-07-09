@@ -1,8 +1,8 @@
 # ``'Indexing``'
-# str = "owais ahmad"
-# ch = str[1]
-# print(ch)
-# print(str[1])
+str = "owais ahmad"
+ch = str[1]
+print(ch)
+print(str[1])
 
 # ``'Slicing``'
 
