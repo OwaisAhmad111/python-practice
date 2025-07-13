@@ -1,2 +1,2 @@
-hello, my name is owais ahmad,
-i am 19 years old.
+I want to learn DSA,123
+But currently practice in Python
