@@ -2,3 +2,6 @@ Hi everyone
 we are learning File I/O
 Using Python
 i like programming in Python 
+
+
+ Q5, 1,2,34,56,78,98,101
