@@ -50,11 +50,34 @@ st1.hello()
 #... Decorator...
 
 class space:
-    @staticmethod # decorator
+    @staticmethod # decorator,when we wrote it than there is no need of "self" in a parameter.
     def stars():
         print("stars in sky")
 s1 = space()
 s1.stars()
+
+#... class method...
+
+class person:
+    name = "unknown"
+    def changeName(self,name):
+        self.__class__.name = "owais"
+p1 = person()
+p1.changeName("owais")
+print(p1.name)
+print(person.name)
+
+#......OR.....
+
+class person:
+    name= "unknown"
+    @classmethod
+    def changeName(cls,name):
+        cls.name = name
+p1 = person()
+p1.changeName("owais")
+print(p1.name)
+print(person.name)
 
 
 

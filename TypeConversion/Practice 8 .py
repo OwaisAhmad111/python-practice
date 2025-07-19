@@ -30,12 +30,12 @@ class Account:
     def debit(self,amount):
         self.balance -= amount
         print("Rs,",self.balance,"was debited.")
-        print("Total balance:",self.balance)
+        print("Total balance:",self.total())
     
     def credit(self,amount):
         self.balance +=amount
         print("Rs,",self.balance,"was credited.")
-        print("Total balance:",self.balance)
+        print("Total balance:",self.total())
     
     def total(self):
         return self.balance
