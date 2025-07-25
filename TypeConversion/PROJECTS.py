@@ -162,38 +162,111 @@
 
 # Project (9)..'``Concession Stand Program``'..
 
-menu = {
-    "pepsi": 200,
-    "soda": 100,
-    "chips": 70,
-    "popcorn": 100,
-    "pizza": 500,
-    "burger":350,
-    "sandwitch":100
-}
-cart = []
-total = 0
+# menu = {
+#     "pepsi": 200,
+#     "soda": 100,
+#     "chips": 70,
+#     "popcorn": 100,
+#     "pizza": 500,
+#     "burger":350,
+#     "sandwitch":100
+# }
+# cart = []
+# total = 0
 
-print("------- Menu -------")
-for key,val in menu.items():
-    print(f"{key:9}:Rs {val}")
-print("--------------------")
+# print("-----Your Menu-----")
+# for key,val in menu.items():
+#     print(f"{key:10}:Rs {val}")
+# print("-------------------")
 
-while True:
-    food = input("Enter your food item (q to quit):").lower()
-    if food == "q":
-        break
-    elif menu.get(food) is not None:
-        cart.append(food)
+# while True:
+#     food = input("Select you item (Q to quit):").lower()
+#     if food == "q":
+#         break
+#     elif menu.get(food) is not None:
+#         cart.append(food)
+# print("------Your order-----")
+# for food in cart:
+#     total += menu.get(food)
+#     print(food,end=" ")
 
-print("-------Your Order -------")
-for food in cart:
-    total += menu.get(food)
-    print(food,end=" ")
-print()
+# print()
+# print(f"Your total amount is: {total} Rs")
 
-print(f"Your total amount is {total} Rs")
+# Project (10)..'``Python Number Guessing Game``'..
 
+# import random
+# lowest_num = 1
+# largest_num = 100
+# answer = random.randint(lowest_num,largest_num)
+# guesses = 0
+# is_running = True
+
+# print("---- Python Number Guessing Game -----")
+# print(f"-- select a number between {lowest_num} to {largest_num} --")
+
+# while is_running:
+#      guess = input("Enter your guess:")
+
+#      if guess.isdigit():
+#             guess = int(guess)
+#             guesses+=1
+        
+#             if guess < lowest_num or guess > largest_num:
+#                 print("OUT OF RANGE")
+#                 print(f"plz select a number between {lowest_num} to {largest_num}")
+                
+#             elif guess > answer:
+#                 print("guess is Too high,Try again")
+
+#             elif guess < answer:
+#                 print("guess is Too low,Try again")
+            
+#             else:
+#                 print(f"Corect! it is: {answer}")
+#                 print(f"Number of guesses: {guesses}")
+#                 is_running = False
+    
+#      else:
+#        print("invalid guess")
+#        print(f"plz select a number between {lowest_num} to {largest_num}")
+
+# Project (11)..'``Rock,Paper,Scissors Game``'..
+
+import random
+options = ("rock","paper","scissrors")
+# player = None
+# computer = random.choice(options)
+running = True
+while running:
+    player = None
+    computer = random.choice(options)
+
+    while player not in options:
+        player = input("Enter any (rock,paper,scissrors):")
+    print(f"Player: {player}")
+    print(f"Computer: {computer}")
+
+    if(player == computer):
+        print("Match Tie")
+    elif(player == "rock" and computer == "scissors"):
+        print("You Win")
+    elif(player == "paper" and computer == "rock"):
+        print("You Win")
+    elif(player == "scissrors" and computer == "paper"):
+        print("you win")
+    else:
+        print("You Lose")
+
+    play_again = input("you want to play more(y/n):").lower()
+
+    if not play_again == "y":
+        running = False
+print("--Thanks for Game--")
+
+
+
+    
 
    
 
