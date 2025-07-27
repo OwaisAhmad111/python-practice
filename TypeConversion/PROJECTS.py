@@ -233,42 +233,136 @@
 
 # Project (11)..'``Rock,Paper,Scissors Game``'..
 
-import random
-options = ("rock","paper","scissrors")
-# player = None
-# computer = random.choice(options)
-running = True
-while running:
-    player = None
-    computer = random.choice(options)
+# import random
+# options = ("rock","paper","scissrors")
+# # player = None
+# # computer = random.choice(options)
+# running = True
+# while running:
+#     player = None
+#     computer = random.choice(options)
 
-    while player not in options:
-        player = input("Enter any (rock,paper,scissrors):")
-    print(f"Player: {player}")
-    print(f"Computer: {computer}")
+#     while player not in options:
+#         player = input("Enter any (rock,paper,scissrors):")
+#     print(f"Player: {player}")
+#     print(f"Computer: {computer}")
 
-    if(player == computer):
-        print("Match Tie")
-    elif(player == "rock" and computer == "scissors"):
-        print("You Win")
-    elif(player == "paper" and computer == "rock"):
-        print("You Win")
-    elif(player == "scissrors" and computer == "paper"):
-        print("you win")
-    else:
-        print("You Lose")
+#     if(player == computer):
+#         print("Match Tie")
+#     elif(player == "rock" and computer == "scissors"):
+#         print("You Win")
+#     elif(player == "paper" and computer == "rock"):
+#         print("You Win")
+#     elif(player == "scissrors" and computer == "paper"):
+#         print("you win")
+#     else:
+#         print("You Lose")
 
-    play_again = input("you want to play more(y/n):").lower()
+#     play_again = input("you want to play more(y/n):").lower()
 
-    if not play_again == "y":
-        running = False
-print("--Thanks for Game--")
+#     if not play_again == "y":
+#         running = False
+# print("--Thanks for Game--")
 
+# Project (12)..'``Dice Roller Program``'..
 
+# import random
+
+# dice_art = {
+#     1: ("┌─────────┐",
+#         "│         │",
+#         "│    ●    │",
+#         "│         │",
+#         "└─────────┘"),
+#     2: ("┌─────────┐",
+#         "│  ●      │",
+#         "│         │",
+#         "│      ●  │",
+#         "└─────────┘"),
+#     3: ("┌─────────┐",
+#         "│  ●      │",
+#         "│    ●    │",
+#         "│      ●  │",
+#         "└─────────┘"),
+#     4: ("┌─────────┐",
+#         "│  ●   ●  │",
+#         "│         │",
+#         "│  ●   ●  │",
+#         "└─────────┘"),
+#     5: ("┌─────────┐",
+#         "│  ●   ●  │",
+#         "│    ●    │",
+#         "│  ●   ●  │",
+#         "└─────────┘"),
+#     6: ("┌─────────┐",
+#         "│  ●   ●  │",
+#         "│  ●   ●  │",
+#         "│  ●   ●  │",
+#         "└─────────┘")
+# }
+# dice = []
+# total = 0
+# num_of_dice = int(input("How many dice:"))
+
+# for die in range(num_of_dice):
+#     dice.append(random.randint(1,6))
+# for die in range(num_of_dice):
+#     for line in dice_art.get(dice[die]):
+#         print(line)
+# for die in dice:
+#     total += die
+# print(f"Total =  {total}")
 
     
+# Project (13)..'``Python banking program``'..
 
-   
+# def show_balance():
+#     print(f"Your balance is {balance} Rs")
+
+# def deposit():
+#     amount = int(input("Enter an amount to be deposit:"))
+#     if(amount < 0):
+#         print("Invalid amount")
+#         return 0
+#     else:
+#         return amount
+
+# def withdraw():
+#     amount = float(input("Enter an amount to withdrawn:"))
+#     if(amount > balance):
+#         print("Insufficient Funds")
+#         return 0
+#     elif(amount < 0):
+#         print("Invalid amount")
+#         return 0
+#     else:
+#         return amount
+    
+
+# balance = 0
+# is_running = True
+
+# while is_running:
+#     print("Banking program")
+#     print("1.show_balance")
+#     print("2.deposit")
+#     print("3.withdraw")
+#     print("4.Exit")
+    
+#     choice = input("Enter your choice (1,4):")
+#     if(choice == '1'):
+#         show_balance()
+#     elif(choice =='2'):
+#         balance+=deposit()
+#     elif(choice == '3'):
+#         balance-=withdraw()
+#     elif(choice == '4'):
+#         is_running = False
+#     else:
+#         print("That is not the correct choice")
+
+# print("Thanks! Have a nice day")
+
 
 
 
