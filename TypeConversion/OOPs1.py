@@ -52,7 +52,7 @@ st1.hello()
 class space:
     @staticmethod # decorator,when we wrote it than there is no need of "self" in a parameter.
     def stars():
-        print("stars in sky")
+        print("stars in the sky")
 s1 = space()
 s1.stars()
 
@@ -70,7 +70,7 @@ print(person.name)
 #......OR.....
 
 class person:
-    name= "unknown"
+    name = "unknown"
     @classmethod
     def changeName(cls,name):
         cls.name = name
